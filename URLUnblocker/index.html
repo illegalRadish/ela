@@ -1,0 +1,45 @@
+
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<style>
+body {font-family: 'Lato', sans-serif;}
+
+#content{
+
+max-width: 50%;
+border: 3px solid black;
+padding: 10px;
+
+}
+
+</style>
+</head>
+<body>
+<center>
+<div id="content">
+<BR>
+<h1> URL Unblocker </h1>
+<hr>
+<h4>Enter URL:</h4><BR>
+<form action="unblock.php" method="post">
+http://<input type="text" name="URL" required>
+<BR>
+<BR>
+<div class="g-recaptcha" data-sitekey="6LepRwITAAAAAP_LU8JK96H4JFrvkybHKjWqPQcE"></div>
+<BR>
+<input type="submit">
+</form>
+<BR>
+<p>This tool allows you to view web pages that may be blocked by your ISP or employer. It works by getting the server to view the web page you specify and then transfers the data to you. Please do not use this for illegal purposes or spam it. Thank you. </p> 
+<p>All use of this site is logged. The URL you request, your IP address, and the date & time of your request is logged. We will not share this data with any other party unless required to do so by law.</p>
+<P>Please note that this only works with single pages. Clicking on a URL or button on a page viewed by using this tool will <b>NOT</b> work. Please use the direct URL instead.</p>
+<BR>
+<BR>
+<BR>
+<p> &copy; Daniel Wade 2015. All rights reserved. </p>
+</div>
+</center>
+</body>
+</html>
